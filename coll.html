@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Колекції - Louis Vuitton</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+      }
+
+      header {
+        background-color: #111;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+
+      nav {
+        background-color: #222;
+        padding: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      li {
+        margin: 0 15px;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #222;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        display: block;
+        text-decoration: none;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .collections-container {
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #222;
+        border-radius: 10px;
+        text-align: center;
+        max-width: 1200px;
+      }
+
+      .collection {
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .collection-img {
+        flex: 0 0 45%;
+      }
+
+      .collection-info {
+        flex: 0 0 45%;
+        text-align: left;
+      }
+
+      .collection-img img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .collection-info h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .footer {
+        background-color: #111;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Louis Vuitton</h1>
+    </header>
+
+    <nav>
+      <nav>
+        <ul>
+          <li><a href="/">Головна</a></li>
+          <li class="dropdown">
+            <a href="coll.html">Колекції</a>
+            <div class="dropdown-content">
+              <a href="wc.html">Для Жiнок</a>
+              <a href="mc.html">Для Чоловiкiв</a>
+              <a href="uvi.html">Ювелірні Вироби</a>
+            </div>
+          </li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><a href="mag.html">Магазини</a></li>
+          <li><a href="help.html">Підтримка</a></li>
+        </ul>
+      </nav>
+
+      <div class="collections-container">
+        <div class="collection">
+          <div class="collection-img">
+            <a href="mc.html">
+              <img
+                src="https://harpersbazaar.kz/wp-content/uploads/2023/07/look_03-1.jpg"
+                alt="Мужська Колекція"
+                height="1000"
+                width="1000"
+              />
+            </a>
+          </div>
+          <div class="collection-info">
+            <h2>Чоловіча колекція</h2>
+            <p>
+              Відкрийте для себе останні тренди та стильні рішення в чоловічій
+              моді.
+            </p>
+          </div>
+        </div>
+
+        <div class="collection">
+          <div class="collection-info">
+            <h2>Жіноча колекція</h2>
+            <p>
+              Провідна модна та елегантна жіноча колекція від Louis Vuitton.
+            </p>
+          </div>
+          <div class="collection-img">
+            <a href="wc.html">
+              <img
+                src="https://ru.louisvuitton.com/content/dam/lv/online/picture/france/BC_CATEGORY_CRUISE24_IMG14_LVCOM_DI3.jpg?wid=2400"
+                alt="Жіноча Колекція"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2024 Louis Vuitton. Усі права захищені.</p>
+      </div>
+    </nav>
+  </body>
+</html>

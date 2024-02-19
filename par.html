@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Парфюмерія - Louis Vuitton</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+      }
+
+      header {
+        background-color: #111;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+
+      nav {
+        background-color: #222;
+        padding: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      li {
+        margin: 0 15px;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #222;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        display: block;
+        text-decoration: none;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .perfume-container {
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #222;
+        border-radius: 10px;
+        text-align: left;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .perfume-image {
+        flex: 0 0 45%;
+      }
+
+      .perfume-products {
+        flex: 0 0 45%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .perfume-products img {
+        max-width: 80%;
+        height: 80%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      .perfume-product {
+        width: 48%;
+        margin-bottom: 20px;
+      }
+
+      .buy-button {
+        background-color: #000000;
+        color: white;
+        padding: 4px 8px; /* Змінено розмір кнопки */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 8px; /* Змінено розмір шрифту */
+        margin-top: 5px; /* Змінено відступ відгори */
+        border-radius: 5px;
+        width: 100%;
+      }
+
+      .price {
+        color: rgb(235, 243, 236);
+        font-size: 14px;
+      }
+
+      .footer {
+        background-color: #111;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+
+  <body>
+    <header>
+      <h1>Louis Vuitton</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="/">Головна</a></li>
+        <li class="dropdown">
+          <a href="coll.html">Колекції</a>
+          <div class="dropdown-content">
+            <a href="wc.html">Для Жiнок</a>
+            <a href="mc.html">Для Чоловiкiв</a>
+            <a href="uvi.html">Ювелірні Вироби</a>
+          </div>
+        </li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="mag.html">Магазини</a></li>
+        <li><a href="help.html">Підтримка</a></li>
+      </ul>
+    </nav>
+
+    <div class="perfume-container">
+      <div class="perfume-image">
+        <img
+          src="https://fraguru.com/himg/o.nxibNEFisrb.jpg"
+          alt="Парфюм головне зображення"
+          width="600"
+          height="600"
+        />
+      </div>
+      <div class="perfume-products">
+        <div class="perfume-product">
+          <a href="order.html">
+            <img
+              src="https://boheme.com.ua/images/thumb375x500.73344.jpg"
+              alt="Товар 1"
+              width="250"
+              height="250"
+            />
+            <div class="buy-button">Придбати</div>
+            <div class="price">$50</div>
+          </a>
+        </div>
+        <div class="perfume-product">
+          <a href="order.html">
+            <img
+              src="https://boheme.com.ua/images/thumblouis-vuitton-parfum-fleur-du-disert-tous-les-parfums-lp0287_pm2_front-view.jpg"
+              alt="Товар 2"
+              width="250"
+              height="250"
+            />
+            <div class="buy-button">Придбати</div>
+            <div class="price">$60</div>
+          </a>
+        </div>
+        <div class="perfume-product">
+          <a href="order.html">
+            <img
+              src="https://boheme.com.ua/images/thumb375x500.59485.jpg"
+              alt="Товар 3"
+              width="250"
+              height="250"
+            />
+            <div class="buy-button">Придбати</div>
+            <div class="price">$70</div>
+          </a>
+        </div>
+        <div class="perfume-product">
+          <a href="order.html">
+            <img
+              src="https://boheme.com.ua/images/thumblouis-vuitton-lp0120_pm2_front_view.jpg"
+              alt="Товар 4"
+              width="250"
+              height="250"
+            />
+            <div class="buy-button">Придбати</div>
+            <div class="price">$80</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2024 Louis Vuitton. Усі права захищені.</p>
+    </div>
+  </body>
+</html>

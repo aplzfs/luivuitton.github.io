@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мужская Коллекция - Louis Vuitton</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+      }
+
+      header {
+        background-color: #111;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+
+      nav {
+        background-color: #222;
+        padding: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      li {
+        margin: 0 15px;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #222;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        display: block;
+        text-decoration: none;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .images-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px;
+      }
+
+      .item-container {
+        flex: 0 0 23%;
+        margin: 10px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      p {
+        margin-top: 10px;
+      }
+
+      .buy-button {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+      }
+
+      .footer {
+        background-color: #ffffff;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Louis Vuitton</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="/">Головна</a></li>
+        <li class="dropdown">
+          <a href="coll.html">Колекції</a>
+          <div class="dropdown-content">
+            <a href="wc.html">Для Жiнок</a>
+            <a href="mc.html">Для Чоловiкiв</a>
+            <a href="uvi.html">Ювелірні Вироби</a>
+          </div>
+        </li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="mag.html">Магазини</a></li>
+        <li><a href="help.html">Підтримка</a></li>
+      </ul>
+    </nav>
+
+    <div class="collection-page" id="mens-collection">
+      <h2>Чоловiча Коллекція</h2>
+
+      <div class="images-container">
+        <!-- Здесь 16 картинок мужской коллекции, по 4 в ряд -->
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%BA%D0%B0%D1%80%D0%B4%D0%B8%D0%B3%D0%B0%D0%BD-%D0%B8%D0%B7-%D1%85%D0%BB%D0%BE%D0%BF%D0%BA%D0%B0-%D1%81-%D0%B2%D1%8B%D1%88%D0%B8%D0%B2%D0%BA%D0%BE%D0%B9--HQN64WAUR809_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 1"
+          />
+          <p class="price">$199.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%BA%D0%BE%D0%BB%D1%8C%D0%B5-lv-dynasty--M01747_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 2"
+          />
+          <p class="price">$229.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D1%81%D1%83%D0%BC%D0%BA%D0%B0-alma-25--M24520_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 3"
+          />
+          <p class="price">$179.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%BA%D1%80%D0%BE%D1%81%D1%81%D0%BE%D0%B2%D0%BA%D0%B8-lv-trainer-maxi--BQQU5PPC01_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 4"
+          />
+          <p class="price">$249.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B4%D0%B6%D0%B8%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0-damier--HQA76WGCO650_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 1"
+          />
+          <p class="price">$199.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%B4%D0%B6%D0%B8%D0%BD%D1%81%D1%8B-damier-skate--HQD87WGCO650_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 2"
+          />
+          <p class="price">$229.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D1%81%D1%83%D0%BC%D0%BA%D0%B0-speedy-18-damier-pop-%D1%81-%D0%BF%D0%BB%D0%B5%D1%87%D0%B5%D0%B2%D1%8B%D0%BC-%D1%80%D0%B5%D0%BC%D0%BD%D1%91%D0%BC--N40595_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 3"
+          />
+          <p class="price">$179.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%BA%D1%80%D0%BE%D1%81%D1%81%D0%BE%D0%B2%D0%BA%D0%B8-lv-trainer--BQ9U7PPC20_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 4"
+          />
+          <p class="price">$249.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80-chess--N40547_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 1"
+          />
+          <p class="price">$199.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%BF%D1%83%D0%BB%D0%BE%D0%B2%D0%B5%D1%80-damier-signature--HQN69WZLL631_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 2"
+          />
+          <p class="price">$229.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%B1%D0%B8%D0%BD%D0%B8-denim--M7407A_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 3"
+          />
+          <p class="price">$179.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D1%82%D0%B0%D0%BF%D0%BE%D1%87%D0%BA%D0%B8-lv-palace--BQZH1PGC20_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 4"
+          />
+          <p class="price">$249.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0-%D0%B8%D0%B7-%D1%85%D0%BB%D0%BE%D0%BF%D0%BA%D0%B0-%D0%BF%D0%B8%D0%BA%D0%B5-%D1%81-%D0%B2%D1%8B%D1%88%D0%B8%D1%82%D1%8B%D0%BC%D0%B8-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B0%D0%BC%D0%B8-lv--HQY60WJUV502_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 1"
+          />
+          <p class="price">$199.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D1%81%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D1%8B%D0%B5-%D0%BE%D1%87%D0%BA%D0%B8-1-1-evidence-damier-pop--Z2432W_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 2"
+          />
+          <p class="price">$229.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%BA%D0%B0%D1%80%D0%BC%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80--N40614_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 3"
+          />
+          <p class="price">$179.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+
+        <div class="item-container">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-%D0%B1%D0%B5%D0%B9%D1%81%D0%B1%D0%BE%D0%BB%D0%BA%D0%B0-damier-pop--M7360M_PM2_Front%20view.png?wid=490&hei=490"
+            alt="Мужская Коллекция 4"
+          />
+          <p class="price">$249.99</p>
+          <a href="order.html" class="buy-button">Придбати</a>
+        </div>
+        <!-- Повторите этот блок для каждой картинки мужской коллекции -->
+      </div>
+    </div>
+  </body>
+</html>

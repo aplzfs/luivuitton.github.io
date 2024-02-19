@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Louis Vuitton</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+      }
+
+      header {
+        background-color: #111;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+
+      nav {
+        background-color: #222;
+        padding: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      li {
+        margin: 0 15px;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #222;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        display: block;
+        text-decoration: none;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .images-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 20px;
+      }
+
+      .image-container {
+        flex: 0 0 30%;
+        margin: 10px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      p {
+        margin-top: 10px;
+      }
+
+      .footer {
+        background-color: #111;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Louis Vuitton</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="/">Головна</a></li>
+        <li class="dropdown">
+          <a href="coll.html">Колекції</a>
+          <div class="dropdown-content">
+            <a href="wc.html">Для Жiнок</a>
+            <a href="mc.html">Для Чоловiкiв</a>
+            <a href="uvi.html">Ювелірні Вироби</a>
+          </div>
+        </li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="mag.html">Магазини</a></li>
+        <li><a href="help.html">Підтримка</a></li>
+      </ul>
+    </nav>
+
+    <div class="images-container">
+      <div class="image-container">
+        <a href="coll.html">
+          <img
+            src="https://ru.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/Homepage/2024/2024_february/central/WOMEN_EDITORIALISATION_NOVEMBRE_0647_MILKY-WAY_LVCOM_2000x2000_DI2.jpg?wid=730"
+            alt="Коллекции"
+            height="400"
+            width="400"
+          />
+          <p>Колекції</p>
+        </a>
+      </div>
+
+      <div class="image-container">
+        <a href="par.html">
+          <img
+            src="https://kosmetista.ru/uploads/images/08/90/66/2021/09/07/7b1aec_lbox.jpg"
+            alt="Парфюмерия"
+            height="400"
+            width="400"
+          />
+          <p>Парфумерiя</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2024 Louis Vuitton. Все права защищены.</p>
+    </div>
+  </body>
+</html>
